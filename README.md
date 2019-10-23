@@ -1,5 +1,5 @@
 # Zum Import
-## zur package.lock hinzu
+## zur package.json hinzu
 ```
 npm add ../sc-component-lib/
 ```
