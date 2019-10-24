@@ -4413,18 +4413,6 @@ var component = normalizeComponent(
 
 /* harmony default export */ var BaseButton = (component.exports);
 // CONCATENATED MODULE: ./src/components/index.js
-/* import Vue from 'vue';
-import CustomButton from './BaseButton.vue';
-
-const Components = {
-    CustomButton
-};
-
-Object.keys(Components).forEach(name => {
-    Vue.Components(name, Components[name]);
-});
-
-export default Components; */
 
 /* harmony default export */ var components = (BaseButton);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
