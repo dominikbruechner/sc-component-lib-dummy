@@ -1,3 +1,36 @@
+# Zum Import
+## zur package.json hinzu
+```
+npm add ../sc-component-lib/
+```
+
+## symlinks im webpack deaktivieren
+```
+module.exports = {
+    chainWebpack: config => config.resolve.set('symlinks', false)
+}
+```
+
+## Code-Beispiel in Vue-Native-App zur Verwendung
+```
+<template>
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png">
+    <custom-button />
+  </div>
+</template>
+<script>
+import CustomButton from 'sc-component-lib'
+export default {
+  name: 'app',
+  components: {
+    CustomButton
+  }
+}
+</script>
+```
+
+
 # sc-component-lib
 
 ## Project setup
