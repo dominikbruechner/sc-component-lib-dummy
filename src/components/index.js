@@ -1,2 +1,2 @@
-import CustomButton from './BaseButton.vue';
-export default CustomButton;
+import BaseSelect from './BaseSelect.vue'
+export default BaseSelect;
